@@ -1,10 +1,10 @@
-# @consolelabs/tooltip
+# @consolelabs/list
 
-Tooltip component displays a brief, informative message that appears when a user
-interacts with an element.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Tooltip Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-tooltip--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/tooltip
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/tooltip
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/tooltip
+yarn add @consolelabs/list
 ```
 
 ## Contribution

@@ -1,10 +1,10 @@
-# @consolelabs/alert
+# @consolelabs/avatar
 
-Alert component efficiently communicates essential information, warnings or
-errors to users.
+Avatar component is used to represent a user, and displays the profile picture,
+initials or fallback icon.
 
 For further details, visit our
-[Alert Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-alert--docs).
+[Avatar Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-avatar--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/alert
+pnpm i @consolelabs/avatar
 
 # Using NPM
-npm i @consolelabs/alert
+npm i @consolelabs/avatar
 
 # Using Yarn
-yarn add @consolelabs/alert
+yarn add @consolelabs/avatar
 ```
 
 ## Contribution

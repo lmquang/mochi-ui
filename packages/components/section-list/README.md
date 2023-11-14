@@ -1,10 +1,10 @@
-# @consolelabs/section-list
+# @consolelabs/list
 
-Section List component structures and displays a collection of items,
-categorizing them by sections for a structured and organized presentation.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Section List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-sectionlist--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/section-list
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/section-list
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/section-list
+yarn add @consolelabs/list
 ```
 
 ## Contribution

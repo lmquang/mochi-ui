@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import Typography from '../src/typography'
 
 const meta: Meta<typeof Typography> = {
-  title: 'components/Typography',
+  title: 'Components/Typography',
   component: Typography,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout

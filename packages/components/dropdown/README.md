@@ -1,9 +1,10 @@
-# @consolelabs/dropdown
+# @consolelabs/list
 
-Dropdown component displays list of actions or options that a user can choose.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Dropdown Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-dropdown--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -11,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/dropdown
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/dropdown
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/dropdown
+yarn add @consolelabs/list
 ```
 
 ## Contribution

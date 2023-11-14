@@ -1,10 +1,10 @@
-# @consolelabs/checkbox
+# @consolelabs/list
 
-Checkbox component allows users to select multiple items from a list of
-individual items, or to mark one individual item as selected.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Checkbox Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-checkbox--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/checkbox
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/checkbox
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/checkbox
+yarn add @consolelabs/list
 ```
 
 ## Contribution

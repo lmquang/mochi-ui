@@ -1,10 +1,10 @@
-# @consolelabs/badge
+# @consolelabs/list
 
-Badge component is used as a small numerical value or status descriptor for UI
-elements.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Badge Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-badge--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/badge
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/badge
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/badge
+yarn add @consolelabs/list
 ```
 
 ## Contribution

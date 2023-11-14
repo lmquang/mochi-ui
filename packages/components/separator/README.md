@@ -1,10 +1,10 @@
-# @consolelabs/separator
+# @consolelabs/list
 
-Separator component creates a clear distinction or spacing between content
-sections or items.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Separator Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-separator--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/separator
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/separator
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/separator
+yarn add @consolelabs/list
 ```
 
 ## Contribution

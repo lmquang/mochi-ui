@@ -3,7 +3,7 @@ import { IconArrowRight } from '@consolelabs/icons'
 import IconButton from '../src/icon-button'
 
 const meta: Meta<typeof IconButton> = {
-  title: 'components/IconButton',
+  title: 'Components/IconButton',
   component: IconButton,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout

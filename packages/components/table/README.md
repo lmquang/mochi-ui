@@ -1,9 +1,10 @@
-# @consolelabs/table
+# @consolelabs/list
 
-Table component is used to display tabular data using rows and columns.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Table Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-table--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -11,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/table
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/table
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/table
+yarn add @consolelabs/list
 ```
 
 ## Contribution

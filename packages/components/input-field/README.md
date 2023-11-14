@@ -1,9 +1,10 @@
-# @consolelabs/input-field
+# @consolelabs/list
 
-Input Field component allows users to enter text.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Input Field Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-inputfield--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -11,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/input-field
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/input-field
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/input-field
+yarn add @consolelabs/list
 ```
 
 ## Contribution

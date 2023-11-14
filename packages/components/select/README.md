@@ -1,10 +1,10 @@
-# @consolelabs/select
+# @consolelabs/list
 
-Select component displays a collapsible list of options and allows a user to
-select one of them.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Select Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-select--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/select
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/select
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/select
+yarn add @consolelabs/list
 ```
 
 ## Contribution

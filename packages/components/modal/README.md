@@ -1,10 +1,10 @@
-# @consolelabs/modal
+# @consolelabs/list
 
-Modal component displays a dialog with a custom content that requires attention
-or provides additional information.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Modal Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-modal--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/modal
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/modal
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/modal
+yarn add @consolelabs/list
 ```
 
 ## Contribution

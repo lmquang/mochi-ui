@@ -1,10 +1,10 @@
-# @consolelabs/popover
+# @consolelabs/avatar
 
-Popover is a non-modal dialog that floats around its disclosure. It's commonly
-used for displaying additional rich content on top of something.
+Avatar component is used to represent a user, and displays the profile picture,
+initials or fallback icon.
 
 For further details, visit our
-[Popover Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-popover--docs).
+[Avatar Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-avatar--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/popover
+pnpm i @consolelabs/avatar
 
 # Using NPM
-npm i @consolelabs/popover
+npm i @consolelabs/avatar
 
 # Using Yarn
-yarn add @consolelabs/popover
+yarn add @consolelabs/avatar
 ```
 
 ## Contribution

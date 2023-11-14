@@ -1,9 +1,10 @@
-# @consolelabs/button
+# @consolelabs/list
 
-Button component allows users to perform actions and choose with a single tap.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Button Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-button--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -11,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/button
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/button
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/button
+yarn add @consolelabs/list
 ```
 
 ## Contribution

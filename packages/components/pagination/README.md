@@ -1,10 +1,10 @@
-# @consolelabs/pagination
+# @consolelabs/list
 
-Pagination component allows you to display active page and navigate between
-multiple pages.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Pagination Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-pagination--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/pagination
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/pagination
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/pagination
+yarn add @consolelabs/list
 ```
 
 ## Contribution

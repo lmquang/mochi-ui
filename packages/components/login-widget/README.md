@@ -1,10 +1,10 @@
-# @consolelabs/login-widget
+# @consolelabs/list
 
-Login Widget component empowers users with access to the web3 application by
-offering diverse login options through various web3 wallets.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Login Widget Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-loginwidget--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/login-widget
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/login-widget
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/login-widget
+yarn add @consolelabs/list
 ```
 
 ## Contribution

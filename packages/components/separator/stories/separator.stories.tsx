@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Separator } from '../src'
 
 const meta: Meta<typeof Separator> = {
-  title: 'components/Separator',
+  title: 'Components/Separator',
   component: Separator,
   parameters: {
     layout: 'centered',

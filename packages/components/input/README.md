@@ -1,10 +1,10 @@
-# @consolelabs/input
+# @consolelabs/list
 
-Input component allows users to enter text. It can be used to get user inputs in
-forms, search fields, and more.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Input Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-input--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/input
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/input
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/input
+yarn add @consolelabs/list
 ```
 
 ## Contribution

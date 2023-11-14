@@ -1,10 +1,10 @@
-# @consolelabs/profile-badge
+# @consolelabs/list
 
-Profile Badge displays user information, including their name, platform, and
-avatar.
+List component structures and displays a collection of items in an organized
+format.
 
 For further details, visit our
-[Profile Badge Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/ui-profilebadge--docs).
+[List Documentation](https://web-design-system-consolelabs.vercel.app/?path=/docs/components-list--docs).
 
 ## Installation
 
@@ -12,13 +12,13 @@ Feel free to use the package manager of your choice:
 
 ```sh
 # Using PNPM
-pnpm i @consolelabs/profile-badge
+pnpm i @consolelabs/list
 
 # Using NPM
-npm i @consolelabs/profile-badge
+npm i @consolelabs/list
 
 # Using Yarn
-yarn add @consolelabs/profile-badge
+yarn add @consolelabs/list
 ```
 
 ## Contribution
