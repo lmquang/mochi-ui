@@ -12,6 +12,7 @@ import { IconArrowUp, IconCheck, IconChevronDown } from '@consolelabs/icons'
 import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ViewApplication } from '~types/mochi-pay-schema'
 
 const DataBox = ({
   label,
@@ -53,7 +54,11 @@ const DataBox = ({
   </div>
 )
 
-export const Statistics = () => {
+interface Props {
+  apps?: ViewApplication[]
+}
+
+export const Statistics = ({ apps = [] }: Props) => {
   return (
     <>
       <PageHeader
@@ -84,10 +89,7 @@ export const Statistics = () => {
               >
                 All apps
               </DropdownMenuItem>
-              {[
-                { id: '1', name: 'App name 1' },
-                { id: '2', name: 'App name 2' },
-              ].map((app) => (
+              {apps.map((app) => (
                 <Link key={app.id} href={`app/${app.id}`}>
                   <DropdownMenuItem key={app.id}>{app.name}</DropdownMenuItem>
                 </Link>

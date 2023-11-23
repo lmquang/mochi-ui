@@ -10,67 +10,16 @@ import {
 } from '@consolelabs/core'
 import { IconThreeDot } from '@consolelabs/icons'
 import Link from 'next/link'
-
-interface App {
-  id: string
-  name: string
-  icon: string
-  platforms: {
-    id: string
-    name: string
-  }[]
-  lastModified: string
-}
+import { ViewApplication } from '~types/mochi-pay-schema'
 
 interface Props {
-  apps?: App[]
+  apps?: ViewApplication[]
 }
 
-const data: App[] = [
-  {
-    id: '1',
-    name: 'Mocaverse',
-    icon: 'https://source.boringavatars.com/beam/120/?colors=665c52,74b3a7,a3ccaf,E6E1CF,CC5B14',
-    platforms: [
-      { id: 'Discord', name: 'Discord' },
-      { id: 'Telegram', name: 'Telegram' },
-      { id: 'Web', name: 'Web' },
-    ],
-    lastModified: 'Oct 24, 2023',
-  },
-  {
-    id: '2',
-    name: 'Lamas Finance',
-    icon: 'https://source.boringavatars.com/beam/120/?colors=665c52,74b3a7,a3ccaf,E6E1CF,CC5B14',
-    platforms: [
-      { id: 'Discord', name: 'Discord' },
-      { id: 'Web', name: 'Web' },
-    ],
-    lastModified: 'Oct 24, 2023',
-  },
-  {
-    id: '3',
-    name: 'OrderlyNetwork',
-    icon: 'https://source.boringavatars.com/beam/120/?colors=665c52,74b3a7,a3ccaf,E6E1CF,CC5B14',
-    platforms: [
-      { id: 'Discord', name: 'Discord' },
-      { id: 'Telegram', name: 'Telegram' },
-    ],
-    lastModified: 'Oct 24, 2023',
-  },
-  {
-    id: '4',
-    name: 'Robots.Farm | zkSync 👀',
-    icon: 'https://source.boringavatars.com/beam/120/?colors=665c52,74b3a7,a3ccaf,E6E1CF,CC5B14',
-    platforms: [{ id: 'Discord', name: 'Discord' }],
-    lastModified: 'Oct 24, 2023',
-  },
-]
-
-const Name: ColumnProps<App>['cell'] = (props) => (
+const Name: ColumnProps<ViewApplication>['cell'] = (props) => (
   <div className="flex items-center space-x-3.5">
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img alt="" src={props.row.original.icon} width={40} height={40} />
+    <img alt="" src={props.row.original.avatar} width={40} height={40} />
     <Link href={`app/${props.row.original.id}`}>
       <Typography level="body-sm" className="font-bold">
         {props.row.original.name}
@@ -79,7 +28,7 @@ const Name: ColumnProps<App>['cell'] = (props) => (
   </div>
 )
 
-const Actions: ColumnProps<App>['cell'] = () => (
+const Actions: ColumnProps<ViewApplication>['cell'] = () => (
   <DropdownMenu>
     <DropdownMenuTrigger className="flex items-center justify-center w-6 h-6 border rounded-full border-neutral-300">
       <IconThreeDot width={15} height={15} />
@@ -93,7 +42,7 @@ const Actions: ColumnProps<App>['cell'] = () => (
   </DropdownMenu>
 )
 
-export const AppListing = ({ apps = data }: Props) => {
+export const AppListing = ({ apps = [] }: Props) => {
   return (
     <div className="mt-8">
       <Typography level="title-md" color="textPrimary">
@@ -111,8 +60,7 @@ export const AppListing = ({ apps = data }: Props) => {
               {
                 header: 'Platforms',
                 accessorKey: 'platforms',
-                accessorFn: (row) =>
-                  row.platforms.map((p) => p.name).join(', '),
+                accessorFn: (row) => row.platforms?.join(', ') || '',
               },
               {
                 header: 'Last Modified',
