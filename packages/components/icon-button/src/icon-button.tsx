@@ -28,7 +28,8 @@ const IconButton = React.forwardRef(
     return (
       <Component
         ref={ref}
-        className={iconButtonCva({ className, variant, color, size })}
+        // className={iconButtonCva({ className, variant, color, size })}
+        className='bg-green-500'
         disabled={disabled}
         {...rest}
       >

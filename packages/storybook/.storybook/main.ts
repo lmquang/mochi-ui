@@ -7,9 +7,11 @@ const storybookConfig: StorybookConfig = {
   },
   staticDirs: ['./assets'],
   stories: [
-    '../../components/**/src/*.stories.@(js|jsx|ts|tsx|md|mdx)',
-    '../../components/**/stories/*.stories.@(js|jsx|ts|tsx|md|mdx)',
-    '../src/*.stories.@(js|jsx|ts|tsx|md|mdx)',
+    // '../../components/**/src/*.stories.@(js|jsx|ts|tsx|md|mdx)',
+    // '../../components/**/stories/*.stories.@(js|jsx|ts|tsx|md|mdx)',
+    '../../components/date-picker/stories/*.stories.@(js|jsx|ts|tsx|md|mdx)',
+    '../../components/input/stories/*.stories.@(js|jsx|ts|tsx|md|mdx)',
+    // '../src/*.stories.@(js|jsx|ts|tsx|md|mdx)',
   ],
   addons: [
     '@storybook/addon-essentials',
