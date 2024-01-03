@@ -32,7 +32,6 @@
     "@mochi-ui/theme": "workspace:*",
     "@mochi-web3/connect-wallet-widget": "workspace:*",
     "@mochi-web3/login-widget": "workspace:*",
-    "@radix-ui/react-scroll-area": "^1.0.5",
     "@solana/spl-token": "^0.3.7",
     "@solana/wallet-adapter-base": "0.9.22",
     "@solana/wallet-adapter-react": "^0.15.30",
