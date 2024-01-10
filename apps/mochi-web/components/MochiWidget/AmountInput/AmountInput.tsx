@@ -270,8 +270,8 @@ export const AmountInput: React.FC<AmountInputProps> = ({
           >
             <IconButton
               label="Toggle USD mode"
-              variant="solid"
-              color="white"
+              variant="outline"
+              color="neutral"
               onClick={() => {
                 if (!isUsdMode) {
                   handleAmountChanged({
