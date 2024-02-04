@@ -1,11 +1,18 @@
 import { GetStaticProps } from 'next'
-import { Badge, Button, IconButton, Typography } from '@mochi-ui/core'
+import {
+  Badge,
+  Button,
+  IconButton,
+  Pagination,
+  Typography,
+} from '@mochi-ui/core'
 import { Layout } from '~app/layout'
 import { SEO } from '~app/layout/seo'
 import { PAGES } from '~constants'
 import { Markdown } from '~cpn/Changelog/Markdown'
 import {
   ModelProductChangelogs,
+  ResponsePaginationResponse,
   ResponseProductChangelogs,
 } from '~types/mochi-schema'
 import { format, isValid } from 'date-fns'
@@ -19,16 +26,18 @@ import { Footer } from '~app/layout/footer'
 
 type Props = {
   data?: Array<ModelProductChangelogs>
+  pagination?: ResponsePaginationResponse
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const { data } = await API.MOCHI.get(
+  const { data, pagination } = await API.MOCHI.get(
     GET_PATHS.CHANGELOGS,
   ).json<ResponseProductChangelogs>((r) => r)
 
   return {
     props: {
       data,
+      pagination,
     },
     revalidate: 60,
   }
@@ -69,7 +78,7 @@ const ChangelogItem = ({
   )
 }
 
-export default function Changelog({ data }: Props) {
+export default function Changelog({ data, pagination }: Props) {
   const ref = useRef<HTMLDivElement>(null)
 
   return (
@@ -115,9 +124,20 @@ export default function Changelog({ data }: Props) {
             </IconButton>
           </div>
         </div>
-
         {data?.map(
           (d, i) => d && <ChangelogItem {...d} key={`changelog-${i}`} />,
+        )}
+        {(pagination?.total ?? 0) > 5 && (
+          <div className="py-4 flex justify-end items-center">
+            <Pagination
+              initItemsPerPage={5}
+              initalPage={1}
+              onItemPerPageChange={() => {}}
+              onPageChange={() => {}}
+              totalItems={pagination?.total ?? 0}
+              totalPages={Math.floor((pagination?.total ?? 1) / 5)}
+            />
+          </div>
         )}
       </div>
     </Layout>
