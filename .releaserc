@@ -4,16 +4,11 @@
     {
       "name": "main",
       "prerelease": "rc"
-    },
-    {
-      "name": "cicd",
-      "prerelease": "rc"
     }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
     [
       "@semantic-release/npm",
       {
@@ -26,6 +21,8 @@
         "successComment": false
       }
     ],
-    "@semantic-release/git"
+    ["@semantic-release/git", {
+      "assets": ["apps/mochi-web/package.json"]
+    }]
   ]
 }
